@@ -27,30 +27,21 @@ namespace hastane_otomasyon
         MySqlConnection con;
         MySqlCommand cmd;
         MySqlDataReader dr;
-        private void button_giris_Click(object sender, EventArgs e)
+
+  
+
+        private void button_hasta_Click(object sender, EventArgs e)
         {
-            con = new MySqlConnection(constr);
-            con.Open();
-            cmd = new MySqlCommand("select * from kullanicilar where k_ad='" + textBox_ad.Text + "' and k_parola='" + textBox_parola.Text + "'", con);
-            dr=cmd.ExecuteReader();
-            string yetki = "";
-            while (dr.Read())
-            {
-                yetki = dr["yetki"].ToString();
-            }
-            if (yetki != "")
-            {
-                anasayfa yonlendirilecek_sayfa = new anasayfa();
-                Hide(); //mevcutta bulundugun form kapatilip yeni sayfa acılır
-                anasayfa.a_yetki = yetki;
-                yonlendirilecek_sayfa.ShowDialog();
-            }
-            else
-            {
-                Application.Exit();
-            }
-            con.Close();
-           
+            hasta_girisi hasta_girisi = new hasta_girisi();
+            Hide();
+            hasta_girisi.ShowDialog();
+        }
+
+        private void button_doktor_Click(object sender, EventArgs e)
+        {
+            doktor_girisi doktor_girisi = new doktor_girisi();
+            Hide();
+            doktor_girisi.ShowDialog();
         }
     }
 }

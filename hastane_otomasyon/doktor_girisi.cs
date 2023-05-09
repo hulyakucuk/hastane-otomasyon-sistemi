@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace hastane_otomasyon
 {
-    public partial class anasayfa : Form
+    public partial class doktor_girisi : Form
     {
-        public anasayfa()
+        public doktor_girisi()
         {
             InitializeComponent();
         }

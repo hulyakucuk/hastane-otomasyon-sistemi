@@ -50,11 +50,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="anasayfa.cs">
+    <Compile Include="doktor_girisi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="anasayfa.Designer.cs">
-      <DependentUpon>anasayfa.cs</DependentUpon>
+    <Compile Include="doktor_girisi.Designer.cs">
+      <DependentUpon>doktor_girisi.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -62,28 +62,22 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="hastalar.cs">
+    <Compile Include="anasayfa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="hastalar.Designer.cs">
-      <DependentUpon>hastalar.cs</DependentUpon>
+    <Compile Include="anasayfa.Designer.cs">
+      <DependentUpon>anasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hasta_girisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hasta_girisi.Designer.cs">
+      <DependentUpon>hasta_girisi.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="receteler.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="receteler.Designer.cs">
-      <DependentUpon>receteler.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="anasayfa.resx">
-      <DependentUpon>anasayfa.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="hastalar.resx">
-      <DependentUpon>hastalar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -94,9 +88,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="receteler.resx">
-      <DependentUpon>receteler.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

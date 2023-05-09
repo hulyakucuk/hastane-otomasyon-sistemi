@@ -14,7 +14,6 @@ C:\Users\90530\Desktop\VS UYGULAMA\hastane_otomasyon\hastane_otomasyon\bin\Debug
 C:\Users\90530\Desktop\VS UYGULAMA\hastane_otomasyon\hastane_otomasyon\obj\Debug\hastane_otomasyon.csproj.AssemblyReference.cache
 C:\Users\90530\Desktop\VS UYGULAMA\hastane_otomasyon\hastane_otomasyon\obj\Debug\hastane_otomasyon.csproj.SuggestedBindingRedirects.cache
 C:\Users\90530\Desktop\VS UYGULAMA\hastane_otomasyon\hastane_otomasyon\obj\Debug\hastane_otomasyon.exe.config
-C:\Users\90530\Desktop\VS UYGULAMA\hastane_otomasyon\hastane_otomasyon\obj\Debug\hastane_otomasyon.anasayfa.resources
 C:\Users\90530\Desktop\VS UYGULAMA\hastane_otomasyon\hastane_otomasyon\obj\Debug\hastane_otomasyon.Form1.resources
 C:\Users\90530\Desktop\VS UYGULAMA\hastane_otomasyon\hastane_otomasyon\obj\Debug\hastane_otomasyon.Properties.Resources.resources
 C:\Users\90530\Desktop\VS UYGULAMA\hastane_otomasyon\hastane_otomasyon\obj\Debug\hastane_otomasyon.csproj.GenerateResource.cache
@@ -22,5 +21,3 @@ C:\Users\90530\Desktop\VS UYGULAMA\hastane_otomasyon\hastane_otomasyon\obj\Debug
 C:\Users\90530\Desktop\VS UYGULAMA\hastane_otomasyon\hastane_otomasyon\obj\Debug\hastane_otomasyon.csproj.CopyComplete
 C:\Users\90530\Desktop\VS UYGULAMA\hastane_otomasyon\hastane_otomasyon\obj\Debug\hastane_otomasyon.exe
 C:\Users\90530\Desktop\VS UYGULAMA\hastane_otomasyon\hastane_otomasyon\obj\Debug\hastane_otomasyon.pdb
-C:\Users\90530\Desktop\VS UYGULAMA\hastane_otomasyon\hastane_otomasyon\obj\Debug\hastane_otomasyon.receteler.resources
-C:\Users\90530\Desktop\VS UYGULAMA\hastane_otomasyon\hastane_otomasyon\obj\Debug\hastane_otomasyon.hastalar.resources
