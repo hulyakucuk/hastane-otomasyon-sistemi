@@ -28,12 +28,94 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button_iptal = new System.Windows.Forms.Button();
+            this.button_giris = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(242, 180);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(136, 22);
+            this.textBox2.TabIndex = 11;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(242, 76);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(136, 22);
+            this.textBox1.TabIndex = 10;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(97, 176);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(79, 25);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "Parola: ";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(97, 79);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(109, 25);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Doktor Adı:";
+            // 
+            // button_iptal
+            // 
+            this.button_iptal.Location = new System.Drawing.Point(344, 280);
+            this.button_iptal.Name = "button_iptal";
+            this.button_iptal.Size = new System.Drawing.Size(94, 82);
+            this.button_iptal.TabIndex = 7;
+            this.button_iptal.Text = "İPTAL";
+            this.button_iptal.UseVisualStyleBackColor = true;
+            this.button_iptal.Click += new System.EventHandler(this.button_iptal_Click_1);
+            // 
+            // button_giris
+            // 
+            this.button_giris.Location = new System.Drawing.Point(82, 280);
+            this.button_giris.Name = "button_giris";
+            this.button_giris.Size = new System.Drawing.Size(97, 82);
+            this.button_giris.TabIndex = 6;
+            this.button_giris.Text = "GİRİS";
+            this.button_giris.UseVisualStyleBackColor = true;
+            this.button_giris.Click += new System.EventHandler(this.button_giris_Click);
+            // 
+            // doktor_girisi
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.ClientSize = new System.Drawing.Size(527, 439);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button_iptal);
+            this.Controls.Add(this.button_giris);
+            this.Name = "doktor_girisi";
             this.Text = "doktor";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button_iptal;
+        private System.Windows.Forms.Button button_giris;
     }
 }

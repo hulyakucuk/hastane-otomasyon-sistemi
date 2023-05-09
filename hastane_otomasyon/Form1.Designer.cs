@@ -36,9 +36,9 @@
             // button_doktor
             // 
             this.button_doktor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button_doktor.Location = new System.Drawing.Point(40, 162);
+            this.button_doktor.Location = new System.Drawing.Point(26, 162);
             this.button_doktor.Name = "button_doktor";
-            this.button_doktor.Size = new System.Drawing.Size(141, 129);
+            this.button_doktor.Size = new System.Drawing.Size(163, 129);
             this.button_doktor.TabIndex = 0;
             this.button_doktor.Text = "Doktor Girişi";
             this.button_doktor.UseVisualStyleBackColor = true;
@@ -47,9 +47,9 @@
             // button_hasta
             // 
             this.button_hasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button_hasta.Location = new System.Drawing.Point(388, 162);
+            this.button_hasta.Location = new System.Drawing.Point(374, 162);
             this.button_hasta.Name = "button_hasta";
-            this.button_hasta.Size = new System.Drawing.Size(141, 129);
+            this.button_hasta.Size = new System.Drawing.Size(162, 129);
             this.button_hasta.TabIndex = 1;
             this.button_hasta.Text = "Hasta Girişi";
             this.button_hasta.UseVisualStyleBackColor = true;

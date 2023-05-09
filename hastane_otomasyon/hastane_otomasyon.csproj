@@ -50,6 +50,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="doktor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doktor.Designer.cs">
+      <DependentUpon>doktor.cs</DependentUpon>
+    </Compile>
     <Compile Include="doktor_girisi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,16 +74,56 @@
     <Compile Include="anasayfa.Designer.cs">
       <DependentUpon>anasayfa.cs</DependentUpon>
     </Compile>
+    <Compile Include="hasta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hasta.Designer.cs">
+      <DependentUpon>hasta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hastaSil1.cs" />
     <Compile Include="hasta_girisi.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="hasta_girisi.Designer.cs">
       <DependentUpon>hasta_girisi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Hasta_Sil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hasta_Sil.Designer.cs">
+      <DependentUpon>Hasta_Sil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="klinik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="klinik.Designer.cs">
+      <DependentUpon>klinik.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="randevu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="randevu.Designer.cs">
+      <DependentUpon>randevu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="receteler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="receteler.Designer.cs">
+      <DependentUpon>receteler.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="anasayfa.resx">
+      <DependentUpon>anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doktor_girisi.resx">
+      <DependentUpon>doktor_girisi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hasta_girisi.resx">
+      <DependentUpon>hasta_girisi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
