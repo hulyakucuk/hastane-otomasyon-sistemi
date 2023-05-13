@@ -131,6 +131,12 @@
     <EmbeddedResource Include="hasta_girisi.resx">
       <DependentUpon>hasta_girisi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Hasta_Sil.resx">
+      <DependentUpon>Hasta_Sil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="klinik.resx">
+      <DependentUpon>klinik.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -140,6 +146,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="receteler.resx">
+      <DependentUpon>receteler.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
