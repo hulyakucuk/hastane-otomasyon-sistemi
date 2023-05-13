@@ -24,3 +24,5 @@ C:\Users\90530\Desktop\VS UYGULAMA\hastane_otomasyon\hastane_otomasyon\obj\Debug
 C:\Users\90530\Desktop\VS UYGULAMA\hastane_otomasyon\hastane_otomasyon\obj\Debug\hastane_otomasyon.anasayfa.resources
 C:\Users\90530\Desktop\VS UYGULAMA\hastane_otomasyon\hastane_otomasyon\obj\Debug\hastane_otomasyon.hasta_girisi.resources
 C:\Users\90530\Desktop\VS UYGULAMA\hastane_otomasyon\hastane_otomasyon\obj\Debug\hastane_otomasyon.doktor_girisi.resources
+C:\Users\90530\Desktop\VS UYGULAMA\hastane_otomasyon\hastane_otomasyon\obj\Debug\hastane_otomasyon.doktor.resources
+C:\Users\90530\Desktop\VS UYGULAMA\hastane_otomasyon\hastane_otomasyon\obj\Debug\hastane_otomasyon.hasta.resources

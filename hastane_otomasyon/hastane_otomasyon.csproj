@@ -116,11 +116,17 @@
     <EmbeddedResource Include="anasayfa.resx">
       <DependentUpon>anasayfa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="doktor.resx">
+      <DependentUpon>doktor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="doktor_girisi.resx">
       <DependentUpon>doktor_girisi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hasta.resx">
+      <DependentUpon>hasta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="hasta_girisi.resx">
       <DependentUpon>hasta_girisi.cs</DependentUpon>
